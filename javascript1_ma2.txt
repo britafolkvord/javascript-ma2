@@ -1,0 +1,26 @@
+//MODULE ASSIGNMENT 2 - LEVEL 1
+
+1. What is a function literal?
+- A function literal is also known as an anonymous function, which is a function without an identifier
+that is declared at run-time because it is assigned to a variable or passed in as a parameter.
+
+2. What is the constructor?
+- There are built-in constructors such as Object and Array, and there is custom-constructors
+which define methods and properties for your own type of object. Constructors are useful for creating several 
+similar objects with the same properties and methods.
+
+3. What does the return statement do?
+
+- A fuction ends as soon as the return statement is executed, so any code in the function below the return statement will not be executed.
+
+4. What will be written to the console from this function:
+		function myFunction(){
+			  return console.log('inside my function');
+			  console.log('My name is Andy');
+		}
+		myFunction();
+- "inside my fuction" will be written to the console log.
+
+5. Briefly describe scope in JavaScript.
+- There are different types of scope in JS and it referes to where within your code variables and fuctions are.
+Golbal scope is accessable everywhere because a variable is defined outside a function, whereas local scope is only accessable inside the function it was written.
